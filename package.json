@@ -1,0 +1,12 @@
+{
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "jsx": "github:floatdrop/plugin-jsx@^0.1.1",
+      "react": "npm:react@~0.12"
+    }
+  }
+}
