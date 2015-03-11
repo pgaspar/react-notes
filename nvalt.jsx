@@ -5,7 +5,7 @@ var NoteApp = React.createClass({
     };
   },
 
-  componentDidMount: function() {
+  componentWillMount: function() {
     this.setState({ data: this.props.data });
     this.showNote(this.props.data[0]);
   },
@@ -124,7 +124,7 @@ var NoteEditable = React.createClass({
     };
   },
 
-  componentDidMount: function() {
+  componentWillMount: function() {
     this.setState({ note: this.props.note });
     window.addEventListener('noteSelected', this.updateNoteContent);
   },
