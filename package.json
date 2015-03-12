@@ -1,0 +1,31 @@
+{
+  "name": "react-notes",
+  "version": "0.0.0",
+  "description": "Note taking app in React. Lot's of exploration here. Inspired by nvAlt.",
+  "main": "index.html",
+  "private": true,
+  "dependencies": {
+    "react": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel": "^4.7.8",
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "live-server": "^0.7.0",
+    "watchify": "^2.4.0"
+  },
+  "scripts": {
+    "start": "browserify src/nvalt.jsx -t babelify -o build/nvalt.js",
+    "watch": "watchify src/nvalt.jsx -t babelify -o build/nvalt.js & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgaspar/react-notes.git"
+  },
+  "author": "Pedro Gaspar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgaspar/react-notes/issues"
+  },
+  "homepage": "https://github.com/pgaspar/react-notes"
+}
